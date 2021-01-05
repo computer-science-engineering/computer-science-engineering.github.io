@@ -1,4 +1,5 @@
 {
   "type": "Website",
-  "name": "Org Website"
+  "name": "Org Website",
+  "skip_for_problems_list": "True"
 }
