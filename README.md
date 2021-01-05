@@ -1,4 +1,4 @@
-# template-repo
+# Org Website
 
 1. [Overview](#overview)
 2. [Project](#project)
@@ -12,22 +12,10 @@
 7. [References](#references)
 8. [License](#license)
 
-A template repository
-
 ## Overview
 
-Some text
-
-Few badges here: discord/gitter/spectrum server, build status (circleci/travis/github-workflow; ghworkflow preferable), code coverage.
-
-[![Actions Status](https://github.com/computer-science-engineering
-/
-computer-science-engineering.github.io/workflows/build-test/badge.svg)](https://github.com/computer-science-engineering
-/
-computer-science-engineering.github.io/actions)
-[![GitHub Super-Linter](https://github.com/computer-science-engineering
-/
-computer-science-engineering.github.io/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+[![Actions Status](https://github.com/computer-science-engineering/computer-science-engineering.github.io/workflows/build-test/badge.svg)](https://github.com/computer-science-engineering/computer-science-engineering.github.io/actions)
+[![GitHub Super-Linter](https://github.com/computer-science-engineering/computer-science-engineering.github.io/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
 [More project metadata badges [here](./documentation/project/metadata.md). More CI/CD badges [here](./documentation/development/ci-cd.md#current-status).]
 
@@ -68,9 +56,7 @@ computer-science-engineering.github.io/projects)
 
 ## Links
 
-- [Sourcegraph](https://sourcegraph.com/github.com/computer-science-engineering
-/
-computer-science-engineering.github.io/)
+- [Sourcegraph](https://sourcegraph.com/github.com/computer-science-engineering/computer-science-engineering.github.io/)
 
 ## Notes
 
@@ -78,6 +64,4 @@ computer-science-engineering.github.io/)
 
 ## License
 
-[MIT](https://github.com/computer-science-engineering
-/
-computer-science-engineering.github.io/blob/master/LICENSE)
+[MIT](https://github.com/computer-science-engineering/computer-science-engineering.github.io/blob/master/LICENSE)
