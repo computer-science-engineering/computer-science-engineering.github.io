@@ -2,11 +2,11 @@
 
 1. [Overview](#overview)
 2. [Project](#project)
-   1. [Project Management](#project-management)
+    1. [Project Management](#project-management)
 3. [Product](#product)
 4. [Development](#development)
-   1. [Contributing](#contributing)
-   2. [Other](#other)
+    1. [Contributing](#contributing)
+    2. [Other](#other)
 5. [Links](#links)
 6. [Notes](#notes)
 7. [References](#references)
@@ -20,8 +20,14 @@ Some text
 
 Few badges here: discord/gitter/spectrum server, build status (circleci/travis/github-workflow; ghworkflow preferable), code coverage.
 
-[![Actions Status](https://github.com/manastalukdar/template-repo/workflows/build-test/badge.svg)](https://github.com/manastalukdar/template-repo/actions)
-[![GitHub Super-Linter](https://github.com/manastalukdar/template-repo/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+[![Actions Status](https://github.com/computer-science-engineering
+/
+computer-science-engineering.github.io/workflows/build-test/badge.svg)](https://github.com/computer-science-engineering
+/
+computer-science-engineering.github.io/actions)
+[![GitHub Super-Linter](https://github.com/computer-science-engineering
+/
+computer-science-engineering.github.io/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
 [More project metadata badges [here](./documentation/project/metadata.md). More CI/CD badges [here](./documentation/development/ci-cd.md#current-status).]
 
@@ -33,7 +39,9 @@ Few badges here: discord/gitter/spectrum server, build status (circleci/travis/g
 
 ### Project Management
 
-[GitHub Projects](https://github.com/manastalukdar/template-repo/projects)
+[GitHub Projects](https://github.com/computer-science-engineering
+/
+computer-science-engineering.github.io/projects)
 
 ## Product
 
@@ -60,7 +68,9 @@ Few badges here: discord/gitter/spectrum server, build status (circleci/travis/g
 
 ## Links
 
-- [Sourcegraph](https://sourcegraph.com/github.com/manastalukdar/template-repo/)
+- [Sourcegraph](https://sourcegraph.com/github.com/computer-science-engineering
+/
+computer-science-engineering.github.io/)
 
 ## Notes
 
@@ -68,4 +78,6 @@ Few badges here: discord/gitter/spectrum server, build status (circleci/travis/g
 
 ## License
 
-[MIT](https://github.com/manastalukdar/template-repo/blob/master/LICENSE)
+[MIT](https://github.com/computer-science-engineering
+/
+computer-science-engineering.github.io/blob/master/LICENSE)
