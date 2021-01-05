@@ -41,7 +41,7 @@ jobs:
           # Optional, directory where to extract artifact
           path: ./src/website
           # Optional, defaults to current repo
-          repo: "https://github.com/computer-science-engineering/readme"
+          repo: computer-science-engineering/readme
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
