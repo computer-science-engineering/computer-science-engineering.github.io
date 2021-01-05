@@ -1,14 +1,53 @@
 # Should have a step to deploy to gh-pages
 
 name: build-test
-on: [push]
+on:
+  push:
+    branches:
+      - source
+  pull_request:
+    branches:
+      - source
 jobs:
-
   build:
     name: Build
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest]
     steps:
-
-    - name: Make all
-      working-directory: ./
-      run: ls
+      - uses: actions/checkout@v2
+      - name: Download artifact
+        uses: dawidd6/action-download-artifact@v2
+        with:
+          # Optional, GitHub token
+          github_token: ${{secrets.GITHUB_TOKEN}}
+          # Required, workflow file name or ID
+          workflow: main.yml
+          # Optional, the status or conclusion of a completed workflow to search for
+          # Can be one of a workflow conculsion::
+          # "failure", "success", "neutral", "cancelled", "skipped", "timed_out", "action_required"
+          # Or a workflow status:
+          # "completed", "in_progress", "queued"
+          # Default: "completed"
+          workflow_conclusion: success
+          branch: main
+          # Optional, uploaded artifact name,
+          # will download all artifacts if not specified
+          # and extract them in respective subdirectories
+          # https://github.com/actions/download-artifact#download-all-artifacts
+          name: artifacts
+          # Optional, directory where to extract artifact
+          path: ./src/website
+          # Optional, defaults to current repo
+          repo: https://github.com/computer-science-engineering/readme
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./src/website
+          publish_branch: master # default: gh-pages
+          keep_files: false # default: false
+          force_orphan: true
+          commit_message: "GitHub CI Updates [ci skip]"
