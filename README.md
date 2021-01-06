@@ -27,9 +27,7 @@
 
 ### Project Management
 
-[GitHub Projects](https://github.com/computer-science-engineering
-/
-computer-science-engineering.github.io/projects)
+[GitHub Projects](https://github.com/computer-science-engineering/computer-science-engineering.github.io/projects)
 
 ## Product
 
