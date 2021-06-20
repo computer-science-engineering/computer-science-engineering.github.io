@@ -10,6 +10,7 @@ on:
       - source
   schedule:
     - cron: "0 */13 * * *"
+  workflow_dispatch:
 jobs:
   build:
     name: Build
