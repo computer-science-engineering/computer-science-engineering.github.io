@@ -47,6 +47,7 @@ jobs:
           repo: computer-science-engineering/readme
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.event_name == 'push' && env.BRANCH == 'source' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./src/website
